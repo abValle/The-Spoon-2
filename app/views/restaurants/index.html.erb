@@ -1,0 +1,5 @@
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li><%= "Nome: #{restaurant.name} -> Endereço: #{restaurant.address} -> Rating #{restaurant.rating}" %></li>
+  <% end %>
+</ul>
